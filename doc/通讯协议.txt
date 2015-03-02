@@ -1,0 +1,60 @@
+1、hello消息
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type=”HELLO”>
+<ClientName>newzone-PC<ClientName>
+</XinZongMsg>
+
+2、hello回复消息
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type=”HELLO_REPLY”>s
+</XinZongMsg>
+
+3、文件发送
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type=”FILE_REQUEST>
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+4、文件接收
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type=”FILE_ACCEPT>
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+5、文件拒绝
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type=”FILE_REFUSED>
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+6、文件取消
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type="FILE_CANCEL">
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+7、开始发送文件
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type="FILE_SEND">
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+8、开始接收文件
+<?xml version=”1.0” encoding=”UTF-8”?>
+<XinZongMsg Version=”1.0” Type="FILE_RECV">
+<FileTransferID>ABCD…….</ FileTransferID >
+<FileName>文件名</FileName>
+<FileSize>1024</FileSize>
+</XinZongMsg>
+
+
